@@ -1,4 +1,4 @@
-![Poster](https://www.aicamp.ai/img/w2024051517b.png)
+![Poster](poster.png)
 
 **[Self-hosted LLMs Agent](https://www.aicamp.ai/event/eventdetails/W2024051517) May 15, 05:00 PM PDT at [Microsoft Office in San Francisco](https://g.co/kgs/umjhCnJ)**
 
@@ -196,10 +196,10 @@ Ask a few questions about the document you just uploaded.
 
 ### Bonus: Create knowledge base from markdown files
 
+Concepts: https://github.com/GaiaNet-AI/docs/blob/main/docs/creator-guide/knowledge/concepts.md
+
+Steps: https://github.com/GaiaNet-AI/docs/blob/main/docs/creator-guide/knowledge/markdown.md
 
 ### Bonus: Finetune your own LLM
 
-
-
-
-
+Use llama.cpp: https://github.com/GaiaNet-AI/docs/blob/main/docs/creator-guide/finetune/llamacpp.md
