@@ -1,4 +1,4 @@
-![Poster](poster.png)
+![Poster](poster.jpg)
 
 **[Self-hosted LLMs Agent](https://www.aicamp.ai/event/eventdetails/W2024051517) May 15, 05:00 PM PDT at [Microsoft Office in San Francisco](https://g.co/kgs/umjhCnJ)**
 
