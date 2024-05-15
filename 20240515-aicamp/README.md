@@ -46,9 +46,7 @@ Now, you can ask a question about Paris
 ```
 Where is Paris?
 
-What is the population?
-
-Plan me a two day trip to Paris.
+Plan me a trip to visit the museums in Paris.
 
 Where is Beijing?
 ```
