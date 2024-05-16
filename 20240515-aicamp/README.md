@@ -1,6 +1,9 @@
-![Poster](poster.jpg)
+<p align="center">
 
-**[Self-hosted LLMs Agent](https://www.aicamp.ai/event/eventdetails/W2024051517) May 15, 05:00 PM PDT at [Microsoft Office in San Francisco](https://g.co/kgs/umjhCnJ)**
+<h3 align="center"><a href="GaiaNet_Personalized_LLM_agents.pdf">Presentation slides</a></h3>
+
+<a href="https://www.aicamp.ai/event/eventdetails/W2024051517">![Poster](poster.jpg)</a>
+</p>
 
 ### Prerequisite
 
