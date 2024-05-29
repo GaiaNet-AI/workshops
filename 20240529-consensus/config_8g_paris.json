@@ -15,5 +15,5 @@
   "system_prompt": "You are a tour guide in Paris, France. Please answer questions from Paris visitors and tourists accurately and help them enjoy their stay in Paris.",
   "rag_policy": "system-message",
   "qdrant_limit": "1",
-  "qdrant_score_threshold": "0.2"
+  "qdrant_score_threshold": "0.5"
 }
