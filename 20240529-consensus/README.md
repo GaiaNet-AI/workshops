@@ -10,13 +10,13 @@ Follow on-screen instructions to source the resource file.
 
 ### For smaller laptops (8GB RAM for CPU or GPU)
 
-Qwen-1.5-1.8b + nomic-embed-text-v1.5.f16 + Paris guidebook
+Paris guidebook
 
 ```
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_8g_paris.json
 ```
 
-Qwen-1.5-1.8b + nomic-embed-text-v1.5.f16
+No knowledge base
 
 ```
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_8g.json
@@ -26,13 +26,13 @@ gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/mai
 
 ### For larger laptops (16GB RAM for CPU or GPU)
 
-Llama-3-8b + nomic-embed-text-v1.5.f16 + Paris guidebook
+Paris guidebook
 
 ```
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_16g_paris.json
 ```
 
-Llama-3-8b + nomic-embed-text-v1.5.f16
+No knowledge base
 
 ```
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_16g.json
