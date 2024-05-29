@@ -16,6 +16,12 @@ Paris guidebook
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_8g_paris.json
 ```
 
+London guidebook
+
+```
+gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_8g_london.json
+```
+
 No knowledge base
 
 ```
@@ -30,6 +36,12 @@ Paris guidebook
 
 ```
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_16g_paris.json
+```
+
+London guidebook
+
+```
+gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/workshops/main/20240529-consensus/config_16g_london.json
 ```
 
 No knowledge base
