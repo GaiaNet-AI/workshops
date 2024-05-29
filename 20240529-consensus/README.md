@@ -62,5 +62,5 @@ Ask the model a question "Where is Paris?"
 
 Ask the model follow up questions: "What are the most famous museums in Paris" and "Please plan to two-day trip to visit museums in Paris"
 
-Ask the model an irrelevant question: "Where is Beijing?"
+Ask the model an irrelevant question: "What is Bitcoin?"
 
