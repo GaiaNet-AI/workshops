@@ -1,4 +1,4 @@
-## Talk 1: Cross-platform AI applications in Docker
+# Talk 1: Cross-platform AI applications in Docker
 
 * [Talk abstract](https://sched.co/1eYaP)
 * [Slides]()
@@ -22,7 +22,7 @@ You can ask it questions about the Rust language such as
 * How do I convert a string to an integer number?
 
 
-## Talk 2: Write once, run anywhere, for GPUs
+# Talk 2: Write once, run anywhere, for GPUs
 
 * [Talk abstract]()
 * [Slides]()
@@ -42,6 +42,7 @@ Checkout the LlamaEdge source code
 git clone https://github.com/LlamaEdge/LlamaEdge
 cd LlamaEdge
 git checkout dev
+cd chat
 ```
 
 Build the `llama-chat` wasm app!
