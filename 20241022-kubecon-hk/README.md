@@ -1,7 +1,8 @@
-## Cross-platform AI applications in Docker
+## Talk 1: Cross-platform AI applications in Docker
 
 * [Talk abstract](https://sched.co/1eYaP)
 * [Slides]()
+* [Docker images for Gaia nodes](https://github.com/GaiaNet-AI/gaianet-node/tree/main/docker)
 
 ### Demo
 
@@ -16,9 +17,12 @@ docker run --name gaianet \
 
 Chat here: http://localhost:8080/
 
-Learn more [here](https://github.com/GaiaNet-AI/gaianet-node/tree/main/docker)
+You can ask it questions about the Rust language such as 
 
-## Write once, run anywhere, for GPUs
+* How do I convert a string to an integer number?
+
+
+## Talk 2: Write once, run anywhere, for GPUs
 
 * [Talk abstract]()
 * [Slides]()
