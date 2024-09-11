@@ -1,7 +1,9 @@
 # Assignments from lectures at Texas State University
 
 * Date: Sept, 10th, 2024
-* [Slides](https://docs.google.com/presentation/d/1YrAUO61OObIGeAZ3LNjdCuocdXiNg6Qrz9ykvA4YmMU/edit?usp=sharing)
+* [Google slides](https://docs.google.com/presentation/d/1YrAUO61OObIGeAZ3LNjdCuocdXiNg6Qrz9ykvA4YmMU/edit?usp=sharing)
+* liveProjects from Manning: [Open Source LLMs on Your Own Computer](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer). It covers most of the subjects we discuss here!
+* Star open-source projects on GitHub! [WasmEdge](https://github.com/WasmEdge/WasmEdge) | [LlamaEdge](https://github.com/LlamaEdge/LlamaEdge) | [Gaia node](https://github.com/GaiaNet-AI/gaianet-node)
 
 ## Task 1: Run your own Gaia node with a plain Llama 3.1 8B LLM
 
