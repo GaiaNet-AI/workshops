@@ -9,14 +9,14 @@
 
 Follow the instructions here
 
-https://github.com/GaiaNet-AI/node-configs/tree/main/llama-3.1-8b-instruct
+https://github.com/GaiaNet-AI/node-configs/tree/main/llama-3.2-3b-instruct
 
 Then, load the web-based chatbot on your local machine: http://localhost:8080/
 
 Notes: 
 
 * Windows users need to [install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-* If the user has less than 8GB in RAM (e.g., using one of the small VMs on AWS), they could [do this as an alternative](https://github.com/GaiaNet-AI/node-configs/tree/main/qwen2-0.5b-instruct)
+* If the user has less than 8GB in RAM (e.g., using one of the small VMs on AWS), they could [do this as an alternative](https://github.com/GaiaNet-AI/node-configs/tree/main/llama-3.2-1b-instruct)
 * You can [explore other pre-configured nodes](https://github.com/GaiaNet-AI/node-configs)
 * [Advanced] [Change the `chat` field to another GGUF file](https://docs.gaianet.ai/node-guide/customize#select-an-llm) in the `~/gaianet/config.json` to [any file here](https://huggingface.co/gaianet)
 
