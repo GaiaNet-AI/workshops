@@ -8,7 +8,7 @@ But, there are a few specialized models that are not accessible through the Sili
 
 ### The Llama-3-Groq LLM
 
-This LLM is fine-tuned from the Llama 3 8b for [ool calls. You can use the `tools` JSON field [defined by OpenAI](https://platform.openai.com/docs/guides/function-calling) to pass available tools to the LLM, and send tool call results using the `tool` role in the conversation.
+This LLM is fine-tuned from the Llama 3 8b for tool calls. You can use the `tools` JSON field [defined by OpenAI](https://platform.openai.com/docs/guides/function-calling) to pass available tools to the LLM, and send tool call results using the `tool` role in the conversation.
 
 |  Key | Value |
 | ------------- | ------------- |
