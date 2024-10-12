@@ -191,20 +191,33 @@ The response could be as follows.
 
 If you are on a server or edge device without a GUI, you can install [LlamaEdge](https://github.com/LlamaEdge) directly to start up a local LLM.
 
-Install LlamaEdge (it is a 20MB dependency-free install)
+#### Install LlamaEdge (it is a 20MB dependency-free install)
 
 ```
 curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install_v2.sh | bash -s
 ```
 
-Download an LLM and an embedding model
+Or, if you are inside the GFW
+
+```
+curl -sSf 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install_v2.sh' | bash -s
+```
+
+#### Download an LLM and an embedding model
 
 ```
 curl -LO https://huggingface.co/gaianet/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q5_K_M.gguf
 curl -LO https://huggingface.co/gaianet/Nomic-embed-text-v1.5-Embedding-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf
 ```
 
-Start the API server
+OR, if you are inside the GFW
+
+```
+curl -LO https://hf-mirror.com/gaianet/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q5_K_M.gguf
+curl -LO https://hf-mirror.com/gaianet/Nomic-embed-text-v1.5-Embedding-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf
+```
+
+#### Start the API server
 
 ```
 nohup wasmedge --dir .:./dashboard --nn-preload default:GGML:AUTO:/openbayes/input/input3/Llama-3.2-3B-Instruct-Q5_K_M.gguf --nn-preload embedding:GGML:AUTO:/openbayes/input/input0/nomic-embed-text-v1.5.f16.gguf llama-api-server.wasm --model-name llama-32-3b,nomic-embed --ctx-size 32768,8192 --batch-size 128,8192 --prompt-template llama-3-chat,embedding --web-ui ./ --socket-addr 0.0.0.0:8080 --log-prompts --log-stat &
@@ -216,7 +229,7 @@ Go to the following URL to see the loaded LLM and embedding models!
 curl http://localhost:8080/v1/models
 ```
 
-Access the API server on the edge or device.
+#### Access the API server on the edge or device
 
 |  Key | Value |
 | ------------- | ------------- |
