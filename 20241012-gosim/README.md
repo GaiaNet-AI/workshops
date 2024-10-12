@@ -217,10 +217,16 @@ curl -LO https://hf-mirror.com/gaianet/Llama-3.2-3B-Instruct-GGUF/resolve/main/L
 curl -LO https://hf-mirror.com/gaianet/Nomic-embed-text-v1.5-Embedding-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf
 ```
 
+### Download the API server
+
+```
+curl -LO https://github.com/LlamaEdge/LlamaEdge/releases/latest/download/llama-api-server.wasm
+```
+
 #### Start the API server
 
 ```
-nohup wasmedge --dir .:./dashboard --nn-preload default:GGML:AUTO:/openbayes/input/input3/Llama-3.2-3B-Instruct-Q5_K_M.gguf --nn-preload embedding:GGML:AUTO:/openbayes/input/input0/nomic-embed-text-v1.5.f16.gguf llama-api-server.wasm --model-name llama-32-3b,nomic-embed --ctx-size 32768,8192 --batch-size 128,8192 --prompt-template llama-3-chat,embedding --web-ui ./ --socket-addr 0.0.0.0:8080 --log-prompts --log-stat &
+nohup wasmedge --dir .:./dashboard --nn-preload default:GGML:AUTO:/Llama-3.2-3B-Instruct-Q5_K_M.gguf --nn-preload embedding:GGML:AUTO:nomic-embed-text-v1.5.f16.gguf llama-api-server.wasm --model-name llama-32-3b,nomic-embed --ctx-size 32768,8192 --batch-size 128,8192 --prompt-template llama-3-chat,embedding --socket-addr 0.0.0.0:8080 --log-prompts --log-stat &
 ```
 
 Go to the following URL to see the loaded LLM and embedding models!
