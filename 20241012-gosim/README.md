@@ -217,7 +217,7 @@ curl -LO https://hf-mirror.com/gaianet/Llama-3.2-3B-Instruct-GGUF/resolve/main/L
 curl -LO https://hf-mirror.com/gaianet/Nomic-embed-text-v1.5-Embedding-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf
 ```
 
-### Download the API server
+#### Download the API server
 
 ```
 curl -LO https://github.com/LlamaEdge/LlamaEdge/releases/latest/download/llama-api-server.wasm
