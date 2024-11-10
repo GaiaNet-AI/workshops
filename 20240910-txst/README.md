@@ -22,13 +22,18 @@ Notes:
 
 ## Task 2: Create a knowledge base for your node
 
+**NOTE:** if you have done task #1, you should now delete the `$HOME/gaianet` folder to start over.
+
 Create a text file with your knowledge. It could be a plain text file or a markdown document. Then,
 
 * Create a knowledge snapshot [from the plain text file](https://docs.gaianet.ai/creator-guide/knowledge/text).
 * Create a knowledge snapshot [from the markdown file](https://docs.gaianet.ai/creator-guide/knowledge/markdown).
 * [Advanced] create a knowledge snapshot [from book chapters](https://docs.gaianet.ai/creator-guide/knowledge/csv). Here is [a complete example](https://huggingface.co/datasets/gaianet/chemistry).
 
-Then [configure your node to use the knowledge snapshot file](https://docs.gaianet.ai/node-guide/customize#select-a-knowledge-base).
+Then, 
+
+1. [Install and initialize a Gaia node](https://docs.gaianet.ai/node-guide/quick-start), and
+2. [Configure your node to use the knowledge snapshot file](https://docs.gaianet.ai/node-guide/customize#select-a-knowledge-base).
 
 ## Task 3: Fine-tune the model for your own style (optional)
 
