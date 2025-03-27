@@ -48,14 +48,17 @@ Q: Create a Rust web server that takes JSON in HTTP request body and returns a C
 
 ## Coding LLMs
 
-Qwen Coder: https://github.com/QwenLM/Qwen2.5-Coder
-LlamaEdge / Gaia: https://huggingface.co/gaianet/Qwen2.5-Coder-32B-Instruct-GGUF
+Qwen Coder
+* Model: https://github.com/QwenLM/Qwen2.5-Coder
+* LlamaEdge / Gaia: https://huggingface.co/gaianet/Qwen2.5-Coder-32B-Instruct-GGUF
 
-Codestral: https://mistral.ai/news/codestral-2501
-LlamaEdge / Gaia: https://huggingface.co/gaianet/Codestral-22B-v0.1-GGUF
+Codestral
+* Model: https://mistral.ai/news/codestral-2501
+* LlamaEdge / Gaia: https://huggingface.co/gaianet/Codestral-22B-v0.1-GGUF
 
-Tessa: https://huggingface.co/Tesslate/Tessa-T1-32B
-LlamaEdge / Gaia: https://huggingface.co/gaianet/Tessa-T1-32B-GGUF
+Tessa
+* Model: https://huggingface.co/Tesslate/Tessa-T1-32B
+* LlamaEdge / Gaia: https://huggingface.co/gaianet/Tessa-T1-32B-GGUF
 
 Gemma? 
 * https://x.com/realwasmedge/status/1904199412793987519
