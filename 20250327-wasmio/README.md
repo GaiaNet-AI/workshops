@@ -4,23 +4,27 @@
 
 https://lowcoderust.com/
 
+![](lowcoderust.png)
+
 https://code.flows.network/webhook/IdDl5jrutZEAguuMPsS5
+
+![](pr-reviewer.png)
 
 ## Demo
 
-Prompt. Will use `llms.txt` later. 
+Uses `llms.txt` for overall context.
 
-```
-A template project for building a database-driven microservice in Rust and run it in the WasmEdge sandbox.
-```
+Review specific prompt: "This is designed to run in the WasmEdge sandbox."
 
-Review: https://github.com/second-state/microservice-rust-mysql/pull/22
+Review: https://github.com/second-state/microservice-rust-mysql/pull/24
 
 Video: https://drive.google.com/file/d/1MfDGU8Pc4abHMLUz6SfY5G6P42gk4qG9/view?usp=drivesdk
 
 ## Read a book
 
 https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer
+
+![](book.png)
 
 ## Why private / local LLM?
 
@@ -41,6 +45,21 @@ Local access: http://localhost:8080/chatbot-ui/index.html
 Q: Write a hello world in Python
 
 Q: Create a Rust web server that takes JSON in HTTP request body and returns a CSV in the HTTP response
+
+## Coding LLMs
+
+Qwen Coder: https://github.com/QwenLM/Qwen2.5-Coder
+LlamaEdge / Gaia: https://huggingface.co/gaianet/Qwen2.5-Coder-32B-Instruct-GGUF
+
+Codestral: https://mistral.ai/news/codestral-2501
+LlamaEdge / Gaia: https://huggingface.co/gaianet/Codestral-22B-v0.1-GGUF
+
+Tessa: https://huggingface.co/Tesslate/Tessa-T1-32B
+LlamaEdge / Gaia: https://huggingface.co/gaianet/Tessa-T1-32B-GGUF
+
+Gemma? 
+* https://x.com/realwasmedge/status/1904199412793987519
+* https://medium.com/@michaelyuan_88928/gemma-3-as-a-coding-assistant-f044a204dce9
 
 ## Run a coding LLM locally!
 
