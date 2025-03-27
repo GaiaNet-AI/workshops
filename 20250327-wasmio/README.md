@@ -6,6 +6,18 @@ https://lowcoderust.com/
 
 https://code.flows.network/webhook/IdDl5jrutZEAguuMPsS5
 
+## Demo
+
+Prompt. Will use `llms.txt` later. 
+
+```
+A template project for building a database-driven microservice in Rust and run it in the WasmEdge sandbox.
+```
+
+Review: https://github.com/second-state/microservice-rust-mysql/pull/22
+
+Video: https://drive.google.com/file/d/1MfDGU8Pc4abHMLUz6SfY5G6P42gk4qG9/view?usp=drivesdk
+
 ## Read a book
 
 https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer
