@@ -101,7 +101,7 @@ https://llamaedge.com/docs/user-guide/
 
 ## Rust is great for coding LLMs!
 
-A video interview from Bret Taylor: https://www.bilibili.com/video/BV18pQiYsE2m/
+A video interview from Bret Taylor: https://www.youtube.com/watch?v=2KhWDKCNNvk
 
 ## Teach the LLM Rust!
 
