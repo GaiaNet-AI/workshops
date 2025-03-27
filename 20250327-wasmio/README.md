@@ -1,10 +1,10 @@
-# Workshop
+# Build a private AI coding assistant
+
+> Workshop @ Wasm.io 2025
 
 ## Try a PR review agent built on WasmEdge
 
 https://lowcoderust.com/
-
-![](lowcoderust.png)
 
 https://code.flows.network/webhook/IdDl5jrutZEAguuMPsS5
 
